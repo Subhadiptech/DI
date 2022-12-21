@@ -7,6 +7,7 @@ import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
+
     @Inject
     lateinit var repositories: Repositories
 
@@ -14,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        repositories.saveDB("Subhadip Das", "subhadipdhn@gmail.com")
+        repositories.saveDB("Subhadip Das", "subhadip@gmail.com")
 
     }
 }

@@ -7,6 +7,6 @@ import javax.inject.Inject
 class Repositories @Inject constructor() {
 
     fun saveDB(name: String, email: String) {
-        Log.d("MY_APPLICATION", "Saved Successfully")
+        Log.d("MY_APPLICATION", "Saved Successfully data: $name and $email")
     }
 }
